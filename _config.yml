@@ -1,25 +1,18 @@
 title: Giulia Benintendi
-description: Personal portfolio & blog
+description: Human-centered AI & Robotics
 url: "https://giuliabenintendi.github.io"
 baseurl: ""
 
-# Build settings
-theme: minima
 plugins:
-  - jekyll-feed
   - jekyll-seo-tag
 
-# Profile
 author:
   name: Giulia Benintendi
+  email: giulbenintendi@gmail.com
 
-# Social links (uncomment and fill in the ones you use)
-# twitter_username: your_twitter
-# github_username: giuliabenintendi
-# linkedin_username: your_linkedin
-
-# Exclude from processing
 exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
+  - CV_GiuliaBenintendi.pdf
+  - CV_GiuliaBenintendi_Oct2025.pdf
