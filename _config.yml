@@ -1,0 +1,25 @@
+title: Giulia Benintendi
+description: Personal portfolio & blog
+url: "https://giuliabenintendi.github.io"
+baseurl: ""
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Profile
+author:
+  name: Giulia Benintendi
+
+# Social links (uncomment and fill in the ones you use)
+# twitter_username: your_twitter
+# github_username: giuliabenintendi
+# linkedin_username: your_linkedin
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
