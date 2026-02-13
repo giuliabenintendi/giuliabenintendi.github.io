@@ -178,9 +178,19 @@ a:hover {
 }
 
 .project-image {
-  width: 280px;
-  min-height: 180px;
+  width: 250px;
   flex-shrink: 0;
+}
+
+.project-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.project-image .placeholder {
+  width: 100%;
+  min-height: 160px;
   background: var(--bg-subtle);
   display: flex;
   align-items: center;
@@ -188,11 +198,6 @@ a:hover {
   color: var(--text-secondary);
   font-size: 0.85rem;
   font-style: italic;
-}
-
-.project-image img {
-  width: 100%;
-  display: block;
 }
 
 .project-body {
@@ -348,7 +353,6 @@ a:hover {
 
   .project-image {
     width: 100%;
-    min-height: 160px;
   }
 
   .entry-header {
