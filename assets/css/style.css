@@ -165,11 +165,22 @@ a:hover {
 
 /* ── Projects ── */
 .project-card {
-  margin-bottom: 3rem;
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+  margin-bottom: 2.5rem;
+  padding-bottom: 2.5rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.project-card:last-child {
+  border-bottom: none;
 }
 
 .project-image {
-  width: 100%;
+  width: 280px;
+  min-height: 180px;
+  flex-shrink: 0;
   background: var(--bg-subtle);
   display: flex;
   align-items: center;
@@ -177,13 +188,15 @@ a:hover {
   color: var(--text-secondary);
   font-size: 0.85rem;
   font-style: italic;
-  min-height: 280px;
-  margin-bottom: 0.8rem;
 }
 
 .project-image img {
   width: 100%;
   display: block;
+}
+
+.project-body {
+  flex: 1;
 }
 
 .project-body h3 {
@@ -329,8 +342,13 @@ a:hover {
     text-align: center;
   }
 
+  .project-card {
+    flex-direction: column;
+  }
+
   .project-image {
-    min-height: 180px;
+    width: 100%;
+    min-height: 160px;
   }
 
   .entry-header {
