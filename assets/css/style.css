@@ -75,9 +75,13 @@ a:hover {
   font-weight: 400;
   transition: color 0.2s;
 }
-.nav-links a:hover,
+.nav-links a:hover {
+  color: var(--text);
+  text-decoration: none;
+}
 .nav-links a.active {
   color: var(--text);
+  font-weight: 700;
   text-decoration: none;
 }
 
