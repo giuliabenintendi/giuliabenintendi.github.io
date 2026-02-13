@@ -99,9 +99,9 @@ I work on human-centered AI and robotics, focusing on social signals such as gaz
 
 <div class="about-section">
 <h2>Languages</h2>
-
-- **Italian** — Native
-- **English** — C1 Advanced (Cambridge Certificate)
-- **French** — A2 Elementary
-
+<ul>
+  <li><strong>Italian</strong> — Native</li>
+  <li><strong>English</strong> — C1 Advanced (Cambridge Certificate)</li>
+  <li><strong>French</strong> — A2 Elementary</li>
+</ul>
 </div>
