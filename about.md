@@ -75,29 +75,6 @@ I work on human-centered AI and robotics, focusing on social signals such as gaz
 </div>
 
 <div class="about-section">
-<h2>Technical Skills</h2>
-
-<div class="skills-grid">
-  <span class="skill-tag">Python</span>
-  <span class="skill-tag">PyTorch</span>
-  <span class="skill-tag">OpenCV</span>
-  <span class="skill-tag">NumPy</span>
-  <span class="skill-tag">JAX/Flax</span>
-  <span class="skill-tag">MATLAB</span>
-  <span class="skill-tag">C / C++</span>
-  <span class="skill-tag">Git</span>
-  <span class="skill-tag">Reinforcement Learning</span>
-  <span class="skill-tag">Imitation Learning</span>
-  <span class="skill-tag">Computer Vision</span>
-  <span class="skill-tag">Deep Learning</span>
-  <span class="skill-tag">Control Systems</span>
-  <span class="skill-tag">Eye Tracking</span>
-  <span class="skill-tag">Multi-Agent Systems</span>
-</div>
-
-</div>
-
-<div class="about-section">
 <h2>Languages</h2>
 <ul>
   <li><strong>Italian</strong> — Native</li>
