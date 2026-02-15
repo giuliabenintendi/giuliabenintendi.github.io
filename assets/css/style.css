@@ -37,6 +37,7 @@ body {
   background: var(--bg);
   line-height: 1.7;
   -webkit-font-smoothing: antialiased;
+  transition: background 0.3s, color 0.3s;
 }
 
 a {
@@ -55,6 +56,7 @@ a:hover {
   background: var(--nav-bg);
   backdrop-filter: blur(8px);
   z-index: 100;
+  transition: background 0.3s, border-color 0.3s;
 }
 
 .nav-inner {
@@ -158,6 +160,7 @@ a:hover {
   margin-bottom: 2.5rem;
   font-size: 0.92rem;
   line-height: 1.8;
+  text-align: center;
 }
 
 .social-links a {
