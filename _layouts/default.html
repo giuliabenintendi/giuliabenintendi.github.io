@@ -6,6 +6,14 @@
   <title>{{ page.title | default: site.title }}</title>
   <meta name="description" content="{{ site.description }}">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <script>
+    (function() {
+      var theme = localStorage.getItem('theme');
+      if (theme === 'dark' || (!theme && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+      }
+    })();
+  </script>
   {% seo %}
 </head>
 <body>
@@ -16,6 +24,7 @@
         <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active"{% endif %}>Home</a>
         <a href="{{ '/about' | relative_url }}" {% if page.url == '/about/' %}class="active"{% endif %}>About</a>
         <a href="{{ '/projects' | relative_url }}" {% if page.url == '/projects/' %}class="active"{% endif %}>Projects</a>
+        <button class="theme-toggle" aria-label="Toggle dark mode">&#9790;</button>
       </div>
     </div>
   </nav>
@@ -27,5 +36,25 @@
   <footer class="footer">
     <p>&copy; {{ 'now' | date: "%Y" }} Giulia Benintendi</p>
   </footer>
+
+  <script>
+    var toggle = document.querySelector('.theme-toggle');
+    function updateIcon() {
+      var isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+      toggle.innerHTML = isDark ? '&#9788;' : '&#9790;';
+    }
+    updateIcon();
+    toggle.addEventListener('click', function() {
+      var isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+      if (isDark) {
+        document.documentElement.removeAttribute('data-theme');
+        localStorage.setItem('theme', 'light');
+      } else {
+        document.documentElement.setAttribute('data-theme', 'dark');
+        localStorage.setItem('theme', 'dark');
+      }
+      updateIcon();
+    });
+  </script>
 </body>
 </html>
