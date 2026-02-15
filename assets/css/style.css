@@ -124,7 +124,7 @@ a:hover {
 .hero {
   display: flex;
   gap: 2.5rem;
-  align-items: flex-start;
+  align-items: center;
   margin-bottom: 1.5rem;
 }
 
