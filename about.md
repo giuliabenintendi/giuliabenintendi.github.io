@@ -10,28 +10,37 @@ permalink: /about/
 <h2>Education</h2>
 
 <div class="entry">
-  <div class="entry-header">
-    <strong>Double Degree in Robotic Systems</strong>
-    <span class="entry-date">Sept 2025 – Jan 2026</span>
+  <img src="/assets/images/logos/sorbonne_universite_logo.jpeg" alt="Sorbonne University" class="entry-logo">
+  <div class="entry-content">
+    <div class="entry-header">
+      <strong>Double Degree in Robotic Systems</strong>
+      <span class="entry-date">Sept 2025 – Jan 2026</span>
+    </div>
+    <div class="entry-sub">Sorbonne University, Paris</div>
   </div>
-  <div class="entry-sub">Sorbonne University, Paris</div>
 </div>
 
 <div class="entry">
-  <div class="entry-header">
-    <strong>M.Sc. in Industrial Automation Engineering</strong>
-    <span class="entry-date">Sept 2024 – Present</span>
+  <img src="/assets/images/logos/universita_degli_studi_di_brescia_logo.jpeg" alt="University of Brescia" class="entry-logo">
+  <div class="entry-content">
+    <div class="entry-header">
+      <strong>M.Sc. in Industrial Automation Engineering</strong>
+      <span class="entry-date">Sept 2024 – Present</span>
+    </div>
+    <div class="entry-sub">University of Brescia</div>
   </div>
-  <div class="entry-sub">University of Brescia</div>
 </div>
 
 <div class="entry">
-  <div class="entry-header">
-    <strong>B.Sc. in Industrial Automation Engineering</strong>
-    <span class="entry-date">Sept 2021 – Sept 2024</span>
+  <img src="/assets/images/logos/universita_degli_studi_di_brescia_logo.jpeg" alt="University of Brescia" class="entry-logo">
+  <div class="entry-content">
+    <div class="entry-header">
+      <strong>B.Sc. in Industrial Automation Engineering</strong>
+      <span class="entry-date">Sept 2021 – Sept 2024</span>
+    </div>
+    <div class="entry-sub">University of Brescia — 110/110 cum laude</div>
+    <p>Thesis: "Automatic Control of Anesthesia: Data Analysis and Optimization with Machine Learning"</p>
   </div>
-  <div class="entry-sub">University of Brescia — 110/110 cum laude</div>
-  <p>Thesis: "Automatic Control of Anesthesia: Data Analysis and Optimization with Machine Learning"</p>
 </div>
 
 </div>
@@ -40,30 +49,39 @@ permalink: /about/
 <h2>Experience</h2>
 
 <div class="entry">
-  <div class="entry-header">
-    <strong>Research Intern — RL for Ad-Hoc Teamwork</strong>
-    <span class="entry-date">Mar 2026 – Present</span>
+  <img src="/assets/images/logos/1631353449082.jpeg" alt="University of Stuttgart" class="entry-logo">
+  <div class="entry-content">
+    <div class="entry-header">
+      <strong>Research Intern — RL for Ad-Hoc Teamwork</strong>
+      <span class="entry-date">Mar 2026 – Present</span>
+    </div>
+    <div class="entry-sub">Collaborative AI Centre, University of Stuttgart · Supervisors: Andreas Bulling, Constantin Ruhdorfer</div>
+    <p>Designing MARL agents for ad-hoc teamwork, integrating computational models of joint attention to improve coordination with unseen partners.</p>
   </div>
-  <div class="entry-sub">Collaborative AI Centre, University of Stuttgart · Supervisors: Andreas Bulling, Constantin Ruhdorfer</div>
-  <p>Designing MARL agents for ad-hoc teamwork, integrating computational models of joint attention to improve coordination with unseen partners.</p>
 </div>
 
 <div class="entry">
-  <div class="entry-header">
-    <strong>Research Intern — Gaze Trajectory Analysis in Preterm Infants</strong>
-    <span class="entry-date">Mar 2025 – Present</span>
+  <img src="/assets/images/logos/mmt_lab_logo.jpeg" alt="MMT Lab" class="entry-logo">
+  <div class="entry-content">
+    <div class="entry-header">
+      <strong>Research Intern — Gaze Trajectory Analysis in Preterm Infants</strong>
+      <span class="entry-date">Mar 2025 – Present</span>
+    </div>
+    <div class="entry-sub">University of Brescia · Supervisor: Matteo Lancini</div>
+    <p>Infant gaze estimation and mutual gaze detection in caregiver-infant interactions, with a validation pipeline for accuracy assessment. Part of VIPPSTAR.</p>
   </div>
-  <div class="entry-sub">University of Brescia · Supervisor: Matteo Lancini</div>
-  <p>Infant gaze estimation and mutual gaze detection in caregiver-infant interactions, with a validation pipeline for accuracy assessment. Part of VIPPSTAR.</p>
 </div>
 
 <div class="entry">
-  <div class="entry-header">
-    <strong>Research Intern — ML for Anesthesia Control System</strong>
-    <span class="entry-date">Feb 2024 – Sep 2024</span>
+  <img src="/assets/images/logos/universita_degli_studi_di_brescia_logo.jpeg" alt="University of Brescia" class="entry-logo">
+  <div class="entry-content">
+    <div class="entry-header">
+      <strong>Research Intern — ML for Anesthesia Control System</strong>
+      <span class="entry-date">Feb 2024 – Sep 2024</span>
+    </div>
+    <div class="entry-sub">University of Brescia · Supervisor: Antonio Visioli</div>
+    <p>Developed ML models to optimize anesthesia control systems by predicting patient's level of consciousness. Part of ACTIVA Project.</p>
   </div>
-  <div class="entry-sub">University of Brescia · Supervisor: Antonio Visioli</div>
-  <p>Developed ML models to optimize anesthesia control systems by predicting patient's level of consciousness. Part of ACTIVA Project.</p>
 </div>
 
 </div>
