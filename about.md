@@ -7,12 +7,6 @@ permalink: /about/
 <h1 class="page-title">About</h1>
 
 <div class="about-section">
-
-I work on human-centered AI and robotics, focusing on social signals such as gaze and attention and how they shape multi-agent coordination. I'm pursuing a double degree between the University of Brescia and Sorbonne University in Paris.
-
-</div>
-
-<div class="about-section">
 <h2>Education</h2>
 
 <div class="entry">
@@ -48,9 +42,9 @@ I work on human-centered AI and robotics, focusing on social signals such as gaz
 <div class="entry">
   <div class="entry-header">
     <strong>Research Intern — RL for Ad-Hoc Teamwork</strong>
-    <span class="entry-date">Incoming Mar 2026</span>
+    <span class="entry-date">Mar 2026 – Present</span>
   </div>
-  <div class="entry-sub">Collaborative AI Centre, University of Stuttgart · Supervisor: Andreas Bulling</div>
+  <div class="entry-sub">Collaborative AI Centre, University of Stuttgart · Supervisors: Andreas Bulling, Constantin Ruhdorfer</div>
   <p>Designing MARL agents for ad-hoc teamwork, integrating computational models of joint attention to improve coordination with unseen partners.</p>
 </div>
 
