@@ -64,7 +64,7 @@ a:hover {
   margin: 0 auto;
   padding: 0.9rem 2rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
 }
 
@@ -211,7 +211,7 @@ a:hover {
 }
 
 .project-image {
-  width: 320px;
+  width: 400px;
   flex-shrink: 0;
 }
 
