@@ -221,11 +221,13 @@ a:hover {
 .project-image {
   width: 400px;
   flex-shrink: 0;
+  aspect-ratio: 16 / 9;
 }
 
 .project-image img {
   width: 100%;
-  height: auto;
+  height: 100%;
+  object-fit: cover;
   display: block;
 }
 
