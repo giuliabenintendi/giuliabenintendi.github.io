@@ -361,10 +361,22 @@ img.entry-logo {
   white-space: nowrap;
 }
 
+.entry-subrow {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+}
+
 .entry-sub {
   font-size: 0.88rem;
   color: var(--text-secondary);
   font-style: italic;
+}
+
+.about-section p.paper {
+  margin-bottom: 0.6rem;
 }
 
 .entry p {
@@ -476,7 +488,8 @@ img.entry-logo {
     width: 100%;
   }
 
-  .entry-header {
+  .entry-header,
+  .entry-subrow {
     flex-direction: column;
   }
 }
