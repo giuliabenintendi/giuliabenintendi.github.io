@@ -48,6 +48,12 @@ a:hover {
   text-decoration: underline;
 }
 
+/* Person links: same color as surrounding text, always underlined */
+a.person-link {
+  color: inherit;
+  text-decoration: underline;
+}
+
 /* ── Navigation ── */
 .nav {
   border-bottom: 1px solid var(--border);
