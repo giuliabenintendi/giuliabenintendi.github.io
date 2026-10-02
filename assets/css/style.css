@@ -251,7 +251,7 @@ a.person-link {
 /* Shrink the picture inside its frame to leave white space around it */
 .project-image img.inset {
   object-fit: contain;
-  padding: 12%;
+  padding: 9%;
   box-sizing: border-box;
 }
 
