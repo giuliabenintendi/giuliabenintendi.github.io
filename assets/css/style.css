@@ -33,7 +33,7 @@ html {
 
 body {
   font-family: 'Fraunces', 'Iowan Old Style', Georgia, serif;
-  font-variation-settings: "SOFT" 100;
+  font-variation-settings: "SOFT" 100, "opsz" 72;
   color: var(--text);
   background: var(--bg);
   line-height: 1.7;
