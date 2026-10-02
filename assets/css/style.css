@@ -255,6 +255,11 @@ a.person-link {
   box-sizing: border-box;
 }
 
+/* White-background drawings: invert in dark mode, hue-rotate keeps colors close */
+[data-theme="dark"] .project-image img.invert-dark {
+  filter: invert(1) hue-rotate(180deg);
+}
+
 .project-image .placeholder {
   width: 100%;
   min-height: 160px;
