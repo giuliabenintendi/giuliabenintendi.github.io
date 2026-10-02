@@ -248,6 +248,11 @@ a.person-link {
   display: block;
 }
 
+.project-image img.bordered {
+  border: 1px solid var(--text-secondary);
+  box-sizing: border-box;
+}
+
 .project-image .placeholder {
   width: 100%;
   min-height: 160px;
@@ -270,11 +275,12 @@ a.person-link {
   margin-bottom: 0.15rem;
 }
 
-.project-body h3.project-mate {
+/* Titles spelling out an acronym: regular weight, acronym letters bold */
+.project-body h3.acronym-title {
   font-weight: 400;
 }
 
-.project-body h3.project-mate b {
+.project-body h3.acronym-title b {
   font-weight: 700;
 }
 
