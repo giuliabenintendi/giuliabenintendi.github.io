@@ -101,7 +101,7 @@ a.person-link {
 
 .nav-links a {
   color: var(--text-secondary);
-  font-size: 0.81rem;
+  font-size: 0.86rem;
   font-weight: 400;
   transition: color 0.2s;
 }
@@ -168,7 +168,7 @@ a.person-link {
 
 .hero-text .tagline {
   color: var(--text);
-  font-size: 0.855rem;
+  font-size: 0.91rem;
   line-height: 1.7;
 }
 
@@ -183,7 +183,7 @@ a.person-link {
 /* ── Social Links ── */
 .social-links {
   margin-bottom: 2.5rem;
-  font-size: 0.828rem;
+  font-size: 0.88rem;
   line-height: 1.8;
   text-align: center;
 }
@@ -213,7 +213,7 @@ a.person-link {
 
 .news-item {
   padding: 0.35rem 0;
-  font-size: 0.837rem;
+  font-size: 0.89rem;
   line-height: 1.7;
 }
 
@@ -256,7 +256,7 @@ a.person-link {
   align-items: center;
   justify-content: center;
   color: var(--text-secondary);
-  font-size: 0.765rem;
+  font-size: 0.81rem;
   font-style: italic;
 }
 
@@ -279,27 +279,27 @@ a.person-link {
 }
 
 .project-org {
-  font-size: 0.702rem;
+  font-size: 0.74rem;
   font-style: italic;
   color: var(--text-secondary);
   margin-bottom: 0.1rem;
 }
 
 .project-date {
-  font-size: 0.675rem;
+  font-size: 0.72rem;
   color: var(--text-secondary);
   margin-bottom: 0.5rem;
 }
 
 .project-body p {
-  font-size: 0.765rem;
+  font-size: 0.81rem;
   color: var(--text);
   line-height: 1.7;
 }
 
 .project-links {
   margin-top: 0.5rem;
-  font-size: 0.792rem;
+  font-size: 0.84rem;
 }
 
 .project-links a {
@@ -325,7 +325,7 @@ a.person-link {
 
 .about-section p,
 .about-section li {
-  font-size: 0.837rem;
+  font-size: 0.89rem;
   line-height: 1.7;
   color: var(--text);
 }
@@ -369,11 +369,11 @@ img.entry-logo {
 
 .entry-header strong {
   font-weight: 600;
-  font-size: 0.855rem;
+  font-size: 0.91rem;
 }
 
 .entry-date {
-  font-size: 0.765rem;
+  font-size: 0.81rem;
   color: var(--text-secondary);
   white-space: nowrap;
 }
@@ -387,7 +387,7 @@ img.entry-logo {
 }
 
 .entry-sub {
-  font-size: 0.792rem;
+  font-size: 0.84rem;
   color: var(--text-secondary);
   font-style: italic;
 }
@@ -397,7 +397,7 @@ img.entry-logo {
 }
 
 .entry p {
-  font-size: 0.792rem;
+  font-size: 0.84rem;
   color: var(--text-secondary);
   margin-top: 0.2rem;
 }
@@ -412,7 +412,7 @@ img.entry-logo {
 .skill-tag {
   background: #eef2f7;
   color: var(--accent);
-  font-size: 0.72rem;
+  font-size: 0.76rem;
   font-weight: 500;
   padding: 0.3rem 0.7rem;
   border-radius: 4px;
@@ -454,7 +454,7 @@ img.entry-logo {
 }
 
 .story-body p {
-  font-size: 0.855rem;
+  font-size: 0.91rem;
   line-height: 1.8;
   margin-bottom: 1.3rem;
   color: var(--text);
@@ -467,7 +467,7 @@ img.entry-logo {
   padding: 2rem 2rem;
   border-top: 1px solid var(--border);
   text-align: center;
-  font-size: 0.738rem;
+  font-size: 0.78rem;
   color: var(--text-secondary);
 }
 
