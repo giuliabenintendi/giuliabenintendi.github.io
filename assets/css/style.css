@@ -248,8 +248,10 @@ a.person-link {
   display: block;
 }
 
-.project-image img.bordered {
-  border: 1px solid var(--text-secondary);
+/* Shrink the picture inside its frame to leave white space around it */
+.project-image img.inset {
+  object-fit: contain;
+  padding: 8%;
   box-sizing: border-box;
 }
 
