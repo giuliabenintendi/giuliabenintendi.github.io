@@ -32,7 +32,8 @@ html {
 }
 
 body {
-  font-family: 'Azeret Mono', 'SF Mono', Menlo, Consolas, monospace;
+  font-family: 'Fraunces', 'Iowan Old Style', Georgia, serif;
+  font-variation-settings: "SOFT" 100;
   color: var(--text);
   background: var(--bg);
   line-height: 1.7;
@@ -46,6 +47,16 @@ a {
 }
 a:hover {
   text-decoration: underline;
+}
+
+/* Name and titles */
+.hero-text h1,
+.page-title,
+.story-title,
+.section-title,
+.about-section h2,
+.project-body h3 {
+  font-family: 'Comfortaa', 'Avenir Next', sans-serif;
 }
 
 /* Person links: same color as surrounding text, always underlined */
@@ -90,7 +101,7 @@ a.person-link {
 
 .nav-links a {
   color: var(--text-secondary);
-  font-size: 0.9rem;
+  font-size: 0.81rem;
   font-weight: 400;
   transition: color 0.2s;
 }
@@ -157,7 +168,7 @@ a.person-link {
 
 .hero-text .tagline {
   color: var(--text);
-  font-size: 0.95rem;
+  font-size: 0.855rem;
   line-height: 1.7;
 }
 
@@ -172,7 +183,7 @@ a.person-link {
 /* ── Social Links ── */
 .social-links {
   margin-bottom: 2.5rem;
-  font-size: 0.92rem;
+  font-size: 0.828rem;
   line-height: 1.8;
   text-align: center;
 }
@@ -202,7 +213,7 @@ a.person-link {
 
 .news-item {
   padding: 0.35rem 0;
-  font-size: 0.93rem;
+  font-size: 0.837rem;
   line-height: 1.7;
 }
 
@@ -245,7 +256,7 @@ a.person-link {
   align-items: center;
   justify-content: center;
   color: var(--text-secondary);
-  font-size: 0.85rem;
+  font-size: 0.765rem;
   font-style: italic;
 }
 
@@ -268,27 +279,27 @@ a.person-link {
 }
 
 .project-org {
-  font-size: 0.78rem;
+  font-size: 0.702rem;
   font-style: italic;
   color: var(--text-secondary);
   margin-bottom: 0.1rem;
 }
 
 .project-date {
-  font-size: 0.75rem;
+  font-size: 0.675rem;
   color: var(--text-secondary);
   margin-bottom: 0.5rem;
 }
 
 .project-body p {
-  font-size: 0.85rem;
+  font-size: 0.765rem;
   color: var(--text);
   line-height: 1.7;
 }
 
 .project-links {
   margin-top: 0.5rem;
-  font-size: 0.88rem;
+  font-size: 0.792rem;
 }
 
 .project-links a {
@@ -314,7 +325,7 @@ a.person-link {
 
 .about-section p,
 .about-section li {
-  font-size: 0.93rem;
+  font-size: 0.837rem;
   line-height: 1.7;
   color: var(--text);
 }
@@ -358,11 +369,11 @@ img.entry-logo {
 
 .entry-header strong {
   font-weight: 600;
-  font-size: 0.95rem;
+  font-size: 0.855rem;
 }
 
 .entry-date {
-  font-size: 0.85rem;
+  font-size: 0.765rem;
   color: var(--text-secondary);
   white-space: nowrap;
 }
@@ -376,7 +387,7 @@ img.entry-logo {
 }
 
 .entry-sub {
-  font-size: 0.88rem;
+  font-size: 0.792rem;
   color: var(--text-secondary);
   font-style: italic;
 }
@@ -386,7 +397,7 @@ img.entry-logo {
 }
 
 .entry p {
-  font-size: 0.88rem;
+  font-size: 0.792rem;
   color: var(--text-secondary);
   margin-top: 0.2rem;
 }
@@ -401,7 +412,7 @@ img.entry-logo {
 .skill-tag {
   background: #eef2f7;
   color: var(--accent);
-  font-size: 0.8rem;
+  font-size: 0.72rem;
   font-weight: 500;
   padding: 0.3rem 0.7rem;
   border-radius: 4px;
@@ -443,7 +454,7 @@ img.entry-logo {
 }
 
 .story-body p {
-  font-size: 0.95rem;
+  font-size: 0.855rem;
   line-height: 1.8;
   margin-bottom: 1.3rem;
   color: var(--text);
@@ -456,7 +467,7 @@ img.entry-logo {
   padding: 2rem 2rem;
   border-top: 1px solid var(--border);
   text-align: center;
-  font-size: 0.82rem;
+  font-size: 0.738rem;
   color: var(--text-secondary);
 }
 
