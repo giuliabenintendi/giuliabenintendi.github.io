@@ -20,10 +20,10 @@
   --text: #e4e4e4;
   --text-secondary: #a0a0a0;
   --accent: #6ea8fe;
-  --bg: #161616;
+  --bg: #020202;
   --bg-subtle: #222;
   --border: #333;
-  --nav-bg: rgba(22, 22, 22, 0.97);
+  --nav-bg: rgba(2, 2, 2, 0.97);
 }
 
 html {
