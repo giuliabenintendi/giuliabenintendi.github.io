@@ -16,16 +16,6 @@
   --max-width: 850px;
 }
 
-[data-theme="dark"] {
-  --text: #e4e4e4;
-  --text-secondary: #a0a0a0;
-  --accent: #6ea8fe;
-  --bg: #020202;
-  --bg-subtle: #222;
-  --border: #333;
-  --nav-bg: rgba(2, 2, 2, 0.97);
-}
-
 html {
   font-size: 16px;
   scroll-behavior: smooth;
@@ -38,7 +28,6 @@ body {
   background: var(--bg);
   line-height: 1.7;
   -webkit-font-smoothing: antialiased;
-  transition: background 0.3s, color 0.3s;
 }
 
 a {
@@ -73,7 +62,6 @@ a.person-link {
   background: var(--nav-bg);
   backdrop-filter: blur(8px);
   z-index: 100;
-  transition: background 0.3s, border-color 0.3s;
 }
 
 .nav-inner {
@@ -113,21 +101,6 @@ a.person-link {
   color: var(--text);
   font-weight: 700;
   text-decoration: none;
-}
-
-/* ── Theme Toggle ── */
-.theme-toggle {
-  background: none;
-  border: none;
-  cursor: pointer;
-  font-size: 1.2rem;
-  padding: 0.2rem;
-  line-height: 1;
-  color: var(--text-secondary);
-  transition: color 0.2s;
-}
-.theme-toggle:hover {
-  color: var(--text);
 }
 
 /* ── Main Content ── */
@@ -253,15 +226,6 @@ a.person-link {
   object-fit: contain;
   padding: 9%;
   box-sizing: border-box;
-}
-
-/* Images with a separate dark-mode version */
-.project-image img.dark-only,
-[data-theme="dark"] .project-image img.light-only {
-  display: none;
-}
-[data-theme="dark"] .project-image img.dark-only {
-  display: block;
 }
 
 .project-image .placeholder {

@@ -9,14 +9,6 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Mali:wght@400;500;600;700&family=Fraunces:ital,opsz,wght,SOFT@0,9..144,300..700,0..100;1,9..144,300..700,0..100&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-  <script>
-    (function() {
-      var theme = localStorage.getItem('theme');
-      if (theme === 'dark' || (!theme && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-        document.documentElement.setAttribute('data-theme', 'dark');
-      }
-    })();
-  </script>
   {% seo %}
 </head>
 <body>
@@ -26,7 +18,6 @@
         <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active"{% endif %}>Home</a>
         <a href="{{ '/cv' | relative_url }}" {% if page.url == '/cv/' %}class="active"{% endif %}>CV</a>
         <a href="{{ '/projects' | relative_url }}" {% if page.url == '/projects/' %}class="active"{% endif %}>Projects</a>
-        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode"></button>
       </div>
     </div>
   </nav>
@@ -38,28 +29,5 @@
   <footer class="footer">
     <p>&copy; {{ 'now' | date: "%Y" }} Giulia Benintendi</p>
   </footer>
-
-  <script>
-    (function() {
-      var btn = document.getElementById('theme-toggle');
-      function isDark() {
-        return document.documentElement.getAttribute('data-theme') === 'dark';
-      }
-      function updateIcon() {
-        btn.textContent = isDark() ? '\u2600' : '\u263E';
-      }
-      updateIcon();
-      btn.addEventListener('click', function() {
-        if (isDark()) {
-          document.documentElement.removeAttribute('data-theme');
-          localStorage.setItem('theme', 'light');
-        } else {
-          document.documentElement.setAttribute('data-theme', 'dark');
-          localStorage.setItem('theme', 'dark');
-        }
-        updateIcon();
-      });
-    })();
-  </script>
 </body>
 </html>
