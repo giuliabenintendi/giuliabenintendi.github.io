@@ -255,6 +255,15 @@ a.person-link {
   box-sizing: border-box;
 }
 
+/* Images with a separate dark-mode version */
+.project-image img.dark-only,
+[data-theme="dark"] .project-image img.light-only {
+  display: none;
+}
+[data-theme="dark"] .project-image img.dark-only {
+  display: block;
+}
+
 .project-image .placeholder {
   width: 100%;
   min-height: 160px;
