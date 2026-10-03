@@ -255,13 +255,9 @@ a.person-link {
   box-sizing: border-box;
 }
 
-/* Drawings with a white background ship a *_dark.png copy with a dark background */
-.project-image img.dark-only,
-[data-theme="dark"] .project-image img.light-only {
-  display: none;
-}
-[data-theme="dark"] .project-image img.dark-only {
-  display: block;
+/* White-background drawings: invert in dark mode, hue-rotate keeps colors close */
+[data-theme="dark"] .project-image img.invert-dark {
+  filter: invert(1) hue-rotate(180deg);
 }
 
 .project-image .placeholder {
