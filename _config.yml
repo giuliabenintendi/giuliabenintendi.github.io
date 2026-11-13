@@ -5,6 +5,7 @@ baseurl: ""
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-redirect-from
 
 author:
   name: Giulia Benintendi
