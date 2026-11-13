@@ -153,6 +153,13 @@ a.person-link {
   margin-top: 0.6rem;
 }
 
+/* status sits centred above [GitHub] [LinkedIn] */
+.status-line {
+  text-align: center;
+  font-size: 1rem;
+  margin-bottom: 0.3rem;
+}
+
 .status-icon {
   margin-right: 0.35em;
 }
