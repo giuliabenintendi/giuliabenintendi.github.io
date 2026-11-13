@@ -185,7 +185,6 @@ a.person-link {
 
 /* ── News: scrollable light-yellow box ── */
 .news-list {
-  --news-bullet: "🐝";            /* bullet emoji; see .news-list.leaf for the leaf shape */
   list-style: none;
   margin-bottom: 2.5rem;
   max-height: 14rem;
@@ -206,22 +205,14 @@ a.person-link {
 }
 
 .news-item::before {
-  content: var(--news-bullet);
+  content: "";
   position: absolute;
   left: 0;
-  top: 0.35rem;
-  font-size: 0.9rem;
-}
-
-/* Matteo Bortoletto-style leaf instead of an emoji */
-.news-list.leaf .news-item::before {
-  content: "";
-  left: 0.35rem;
-  top: 0.95rem;
-  width: 9px;
-  height: 9px;
-  background: #b98a2e;
-  border-radius: 100% 0;
+  /* centre the 16px icon on the first text line: 0.35rem padding + half of the line box */
+  top: calc(0.35rem + 0.85em - 8px);
+  width: 16px;
+  height: 16px;
+  background: url("/assets/images/bee.svg") center / contain no-repeat;
 }
 
 .news-date {
@@ -385,9 +376,19 @@ a.person-link {
   max-width: 100%;
 }
 
-/* two logos one above the other (double degree) */
+/* double degree: Brescia top-left, Sorbonne bottom-right */
 .cv-logos.stacked {
   flex-direction: column;
+  align-items: stretch;
+  gap: 0.6rem;
+}
+
+.cv-logos.stacked img:first-child {
+  align-self: flex-start;
+}
+
+.cv-logos.stacked img:last-child {
+  align-self: flex-end;
 }
 
 .cv-text {
