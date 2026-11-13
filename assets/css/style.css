@@ -342,15 +342,17 @@ a.person-link {
 
 .cv-logos {
   display: flex;
-  justify-content: center;
-  gap: 0.5rem;
-  width: 152px;
+  align-items: center;
+  gap: 0.75rem;
+  width: 180px;
   flex-shrink: 0;
 }
 
+/* official horizontal logos (emblem + name), same height */
 .cv-logos img {
-  width: 72px;
-  height: 72px;
+  height: 32px;
+  width: auto;
+  max-width: 160px;
   object-fit: contain;
 }
 
@@ -511,11 +513,5 @@ a.person-link {
 
   .cv-logos {
     width: auto;
-    justify-content: flex-start;
-  }
-
-  .cv-logos img {
-    width: 56px;
-    height: 56px;
   }
 }
