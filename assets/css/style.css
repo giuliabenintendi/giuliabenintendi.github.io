@@ -153,11 +153,6 @@ a.person-link {
   margin-top: 0.6rem;
 }
 
-.hero-text .tagline .status {
-  color: var(--text-secondary);
-  font-style: italic;
-}
-
 .status-icon {
   width: 1.1em;
   height: 1.1em;
