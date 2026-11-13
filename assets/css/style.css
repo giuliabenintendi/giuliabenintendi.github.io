@@ -158,6 +158,13 @@ a.person-link {
   font-style: italic;
 }
 
+.status-icon {
+  width: 1.1em;
+  height: 1.1em;
+  vertical-align: -0.15em;
+  margin-right: 0.35em;
+}
+
 /* ── Social Links ── */
 .social-links {
   margin-bottom: 2.5rem;
@@ -212,7 +219,7 @@ a.person-link {
   top: calc(0.35rem + 0.85em - 8px);
   width: 16px;
   height: 16px;
-  background: url("/assets/images/bee.svg") center / contain no-repeat;
+  background: url("/assets/images/sun.svg") center / contain no-repeat;
 }
 
 .news-date {
