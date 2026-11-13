@@ -324,17 +324,17 @@ a.person-link {
 .page-title {
   font-size: 2.1rem;
   font-weight: 700;
-  margin-bottom: 1.5rem;
-}
-
-.about-section {
   margin-bottom: 2rem;
 }
 
+.about-section {
+  margin-bottom: 3rem;
+}
+
 .about-section h2 {
-  font-size: 1.25rem;
+  font-size: 1.6rem;
   font-weight: 700;
-  margin-bottom: 0.8rem;
+  margin-bottom: 1.8rem;
 }
 
 .about-section p,
@@ -363,7 +363,7 @@ a.person-link {
 .cv-item {
   display: flex;
   align-items: center;
-  gap: 1.5rem;
+  gap: 2.5rem;
   margin-bottom: 2.6rem;
 }
 
@@ -383,7 +383,7 @@ a.person-link {
   max-width: 100%;
 }
 
-/* double degree: Brescia top-left, Sorbonne bottom-right */
+/* double degree: first logo top-left, second bottom-right */
 .cv-logos.stacked {
   flex-direction: column;
   align-items: stretch;
@@ -404,7 +404,7 @@ a.person-link {
 }
 
 .cv-text p + p {
-  margin-top: 0.5rem;
+  margin-top: 0.7rem;
 }
 
 .entry-content {
@@ -446,7 +446,7 @@ a.person-link {
 }
 
 .about-section p.paper {
-  margin-bottom: 0.6rem;
+  margin-bottom: 1.4rem;
 }
 
 .entry p {
