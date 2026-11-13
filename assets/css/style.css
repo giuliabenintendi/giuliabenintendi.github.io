@@ -391,10 +391,19 @@ a.person-link {
   max-width: 100%;
 }
 
-/* two logos for one milestone (double degree): stacked, both centred */
+/* double degree: first logo top-left, second bottom-right (diagonal) */
 .cv-logos.stacked {
   flex-direction: column;
-  gap: 0.8rem;
+  align-items: stretch;
+  gap: 0.6rem;
+}
+
+.cv-logos.stacked img:first-child {
+  align-self: flex-start;
+}
+
+.cv-logos.stacked img:last-child {
+  align-self: flex-end;
 }
 
 .cv-text {
