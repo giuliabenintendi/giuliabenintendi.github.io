@@ -8,18 +8,56 @@ title: Giulia Benintendi
   <div class="hero-text">
     <h1>Giulia Benintendi</h1>
     <p class="tagline">
-      <span class="line">Ciao! I am a second-year master student, pursuing a double degree between the
-        <a href="https://www.unibs.it" target="_blank">University of Brescia</a> and
-        <a href="https://www.sorbonne-universite.fr" target="_blank">Sorbonne University</a>.</span>
-      <span class="line">I research multi-agent reinforcement learning, focusing on how social signals shape multi-agent
-        coordination with the end goal of improving AI agents generalisation.</span>
-      <span class="line">Currently, research assistant in the
+      <span class="line">Ciao! I am a research assistant in the
         <a href="https://www.ifi.uzh.ch/en/alpi.html" target="_blank">ALPI Lab</a>
         at the University of Zurich, advised by Prof. <a href="https://gioramponi.github.io/" target="_blank" class="person-link">Giorgia Ramponi</a>.</span>
-      <span class="line">Just at the beginning of my journey.</span>
+      <span class="line">I research multi-agent reinforcement learning, focusing on how social signals shape multi-agent
+        coordination with the end goal of improving AI agents generalisation.</span>
+      <span class="line">Before that, I completed a double M.Sc. between the
+        <a href="https://www.unibs.it" target="_blank">University of Brescia</a> and
+        <a href="https://www.sorbonne-universite.fr" target="_blank">Sorbonne University</a>.</span>
+      <span class="line status" id="status">You may find me having a coffee.</span>
     </p>
   </div>
 </div>
+
+<script>
+  // One status per hour of the day, Zurich time (index 0 = 00:00–00:59).
+  const STATUS = [
+    "Probably asleep, dreaming of converging policies.",   // 00
+    "Probably asleep. Or waiting for a run to finish.",    // 01
+    "Definitely asleep.",                                  // 02
+    "Definitely asleep.",                                  // 03
+    "Definitely asleep.",                                  // 04
+    "Still asleep. Agents never sleep, though.",           // 05
+    "Waking up, slowly.",                                  // 06
+    "You may find me having breakfast.",                   // 07
+    "You may find me having a coffee.",                    // 08
+    "You may find me reading papers.",                     // 09
+    "You may find me deep in some code.",                  // 10
+    "You may find me at the whiteboard.",                  // 11
+    "You may find me having lunch.",                       // 12
+    "You may find me having (another) coffee.",            // 13
+    "You may find me training agents.",                    // 14
+    "You may find me debugging why the agents won't cooperate.", // 15
+    "You may find me in a meeting.",                       // 16
+    "You may find me plotting learning curves.",           // 17
+    "You may find me out for a run.",                      // 18
+    "You may find me cooking dinner.",                     // 19
+    "You may find me having dinner.",                      // 20
+    "You may find me with a good book.",                   // 21
+    "You may find me checking on a run, one last time.",   // 22
+    "You may find me heading to bed.",                     // 23
+  ];
+  function showStatus() {
+    const hour = Number(new Intl.DateTimeFormat("en-GB", {
+      timeZone: "Europe/Zurich", hour: "numeric", hourCycle: "h23"
+    }).format(new Date()));
+    document.getElementById("status").textContent = STATUS[hour];
+  }
+  showStatus();
+  setInterval(showStatus, 60 * 1000);
+</script>
 
 <div class="social-links">
   giulbenintendi[at]gmail[dot]com
@@ -31,6 +69,9 @@ title: Giulia Benintendi
 
 <h2 class="section-title">News</h2>
 <ul class="news-list">
+  <li class="news-item">
+    <span class="news-date">Oct 2026.</span> Graduated from the double M.Sc. in Industrial Automation Engineering (<a href="https://www.unibs.it" target="_blank">University of Brescia</a>) and Robotic Systems (<a href="https://www.sorbonne-universite.fr" target="_blank">Sorbonne University</a>).
+  </li>
   <li class="news-item">
     <span class="news-date">Sep 2026.</span> Joined the <a href="https://www.ifi.uzh.ch/en/alpi.html" target="_blank">ALPI Lab</a> at University of Zurich as a research assistant, supervised by <a href="https://gioramponi.github.io/" target="_blank" class="person-link">Giorgia Ramponi</a>.
   </li>
@@ -63,10 +104,10 @@ title: Giulia Benintendi
   <div class="project-body">
     <h3 class="acronym-title"><b>M</b>utual <b>A</b>ttention for zero-shot <b>TE</b>aming</h3>
     <p class="project-org"><a href="https://www.collaborative-ai.org/" target="_blank">Collaborative AI Lab @ University of Stuttgart</a></p>
-    <p class="project-date">Mar 2026 – Aug 2026</p>
-    <p>Investigating how joint attention can support zero-shot coordination in cooperative multi-agent RL.</p>
+    <p class="project-date">Mar 2026 – Jul 2026</p>
+    <p>Investigated how joint attention can support zero-shot coordination in cooperative multi-agent RL.</p>
     <div class="project-links">
-      <a href="https://arxiv.org/pdf/2610.06025" target="_blank">Preprint</a>
+      <a href="https://arxiv.org/pdf/2610.06025" target="_blank">[Preprint]</a>
     </div>
   </div>
 </div>

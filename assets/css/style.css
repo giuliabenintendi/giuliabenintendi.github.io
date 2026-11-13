@@ -153,6 +153,11 @@ a.person-link {
   margin-top: 0.6rem;
 }
 
+.hero-text .tagline .status {
+  color: var(--text-secondary);
+  font-style: italic;
+}
+
 /* ── Social Links ── */
 .social-links {
   margin-bottom: 2.5rem;
@@ -245,7 +250,7 @@ a.person-link {
 }
 
 .project-body h3 {
-  font-size: 1.05rem;
+  font-size: 1.2rem;
   font-weight: 700;
   margin-bottom: 0.15rem;
 }
@@ -259,8 +264,9 @@ a.person-link {
   font-weight: 700;
 }
 
-.project-org {
-  font-size: 0.82rem;
+/* .project-body prefix beats the generic .project-body p size */
+.project-body .project-org {
+  font-size: 0.92rem;
   font-style: italic;
   color: var(--text-secondary);
   margin-bottom: 0.1rem;
@@ -326,13 +332,36 @@ a.person-link {
   margin-bottom: 1.2rem;
 }
 
-img.entry-logo {
-  width: 42px !important;
-  height: 42px !important;
-  object-fit: contain;
-  border-radius: 6px;
+/* CV: logo column + prose, like luciapezzetti.com/CV */
+.cv-item {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 1.6rem;
+}
+
+.cv-logos {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  width: 152px;
   flex-shrink: 0;
-  margin-top: 0.1rem;
+}
+
+.cv-logos img {
+  width: 72px;
+  height: 72px;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+.cv-text {
+  flex: 1;
+  min-width: 0;
+}
+
+.cv-text p + p {
+  margin-top: 0.5rem;
 }
 
 .entry-content {
@@ -381,22 +410,6 @@ img.entry-logo {
   font-size: 0.92rem;
   color: var(--text-secondary);
   margin-top: 0.2rem;
-}
-
-/* ── Skills Tags ── */
-.skills-grid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-}
-
-.skill-tag {
-  background: #eef2f7;
-  color: var(--accent);
-  font-size: 0.84rem;
-  font-weight: 500;
-  padding: 0.3rem 0.7rem;
-  border-radius: 4px;
 }
 
 /* ── Story (easter egg) ── */
@@ -489,5 +502,21 @@ img.entry-logo {
   .entry-header,
   .entry-subrow {
     flex-direction: column;
+  }
+
+  .cv-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.6rem;
+  }
+
+  .cv-logos {
+    width: auto;
+    justify-content: flex-start;
+  }
+
+  .cv-logos img {
+    width: 56px;
+    height: 56px;
   }
 }
