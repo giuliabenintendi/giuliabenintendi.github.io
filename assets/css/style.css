@@ -169,11 +169,6 @@ a.person-link {
   color: var(--accent);
 }
 
-.social-links .sep {
-  color: var(--text-secondary);
-  margin: 0 0.3rem;
-}
-
 /* ── Section Headings ── */
 .section-title {
   font-size: 1.3rem;
@@ -216,6 +211,12 @@ a.person-link {
 
 .news-date {
   font-weight: 700;
+}
+
+/* ── Contact ── */
+.contact {
+  font-size: 0.98rem;
+  line-height: 1.8;
 }
 
 /* ── Projects ── */
