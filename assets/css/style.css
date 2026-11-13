@@ -185,7 +185,7 @@ a.person-link {
 
 /* ── News: scrollable light-yellow box ── */
 .news-list {
-  --news-bullet: "☕";            /* bullet emoji; see .news-list.leaf for the leaf shape */
+  --news-bullet: "🐝";            /* bullet emoji; see .news-list.leaf for the leaf shape */
   list-style: none;
   margin-bottom: 2.5rem;
   max-height: 14rem;
@@ -383,6 +383,11 @@ a.person-link {
 .cv-logos img {
   height: auto;
   max-width: 100%;
+}
+
+/* two logos one above the other (double degree) */
+.cv-logos.stacked {
+  flex-direction: column;
 }
 
 .cv-text {
