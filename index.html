@@ -22,38 +22,17 @@ title: Giulia Benintendi
 </div>
 
 <script>
-  // One status per hour of the day, Zurich time (index 0 = 00:00–00:59).
+  // Rotates through these every hour (Zurich time).
   const STATUS = [
-    "Probably asleep, dreaming of converging policies.",   // 00
-    "Probably asleep. Or waiting for a run to finish.",    // 01
-    "Definitely asleep.",                                  // 02
-    "Definitely asleep.",                                  // 03
-    "Definitely asleep.",                                  // 04
-    "Still asleep. Agents never sleep, though.",           // 05
-    "Waking up, slowly.",                                  // 06
-    "You may find me having breakfast.",                   // 07
-    "You may find me having a coffee.",                    // 08
-    "You may find me reading papers.",                     // 09
-    "You may find me deep in some code.",                  // 10
-    "You may find me at the whiteboard.",                  // 11
-    "You may find me having lunch.",                       // 12
-    "You may find me having (another) coffee.",            // 13
-    "You may find me training agents.",                    // 14
-    "You may find me debugging why the agents won't cooperate.", // 15
-    "You may find me in a meeting.",                       // 16
-    "You may find me plotting learning curves.",           // 17
-    "You may find me out for a run.",                      // 18
-    "You may find me cooking dinner.",                     // 19
-    "You may find me having dinner.",                      // 20
-    "You may find me with a good book.",                   // 21
-    "You may find me checking on a run, one last time.",   // 22
-    "You may find me heading to bed.",                     // 23
+    "You may find me having a coffee.",
+    "You may find me walking in the woods.",
+    "You may find me at the gym.",
   ];
   function showStatus() {
     const hour = Number(new Intl.DateTimeFormat("en-GB", {
       timeZone: "Europe/Zurich", hour: "numeric", hourCycle: "h23"
     }).format(new Date()));
-    document.getElementById("status").textContent = STATUS[hour];
+    document.getElementById("status").textContent = STATUS[hour % STATUS.length];
   }
   showStatus();
   setInterval(showStatus, 60 * 1000);
